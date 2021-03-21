@@ -1,10 +1,23 @@
 const mensList = [
     {
-        id: 1,
+        id: 0,
         gender: "mens",
         img: "mens_product_01.png",
         rating: 5,
-        name: "Product Name",
+        name: "Product Name 01",
+        discription: "Product Description",
+        price: 1230.0,
+        info:
+            "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et",
+        color: ["lightsalmon", "lightseagreen"],
+        size: ["S", "M", "L", "XL", "XXL"],
+    },
+    {
+        id: 1,
+        gender: "mens",
+        img: "mens_product_02.png",
+        rating: 4,
+        name: "Product Name 02",
         discription: "Product Description",
         price: 1230.0,
         info:
@@ -15,9 +28,9 @@ const mensList = [
     {
         id: 2,
         gender: "mens",
-        img: "mens_product_02.png",
-        rating: 4,
-        name: "Product Name",
+        img: "mens_product_03.png",
+        rating: 5,
+        name: "Product Name 03",
         discription: "Product Description",
         price: 1230.0,
         info:
@@ -28,9 +41,9 @@ const mensList = [
     {
         id: 3,
         gender: "mens",
-        img: "mens_product_03.png",
-        rating: 5,
-        name: "Product Name",
+        img: "mens_product_04.png",
+        rating: 4,
+        name: "Product Name 04",
         discription: "Product Description",
         price: 1230.0,
         info:
@@ -41,9 +54,9 @@ const mensList = [
     {
         id: 4,
         gender: "mens",
-        img: "mens_product_04.png",
-        rating: 4,
-        name: "Product Name",
+        img: "product_template.png",
+        rating: 3,
+        name: "Product Name 05",
         discription: "Product Description",
         price: 1230.0,
         info:
@@ -55,8 +68,8 @@ const mensList = [
         id: 5,
         gender: "mens",
         img: "product_template.png",
-        rating: 3,
-        name: "Product Name",
+        rating: 4,
+        name: "Product Name 06",
         discription: "Product Description",
         price: 1230.0,
         info:
@@ -68,8 +81,8 @@ const mensList = [
         id: 6,
         gender: "mens",
         img: "product_template.png",
-        rating: 4,
-        name: "Product Name",
+        rating: 5,
+        name: "Product Name 07",
         discription: "Product Description",
         price: 1230.0,
         info:
@@ -81,21 +94,8 @@ const mensList = [
         id: 7,
         gender: "mens",
         img: "product_template.png",
-        rating: 5,
-        name: "Product Name",
-        discription: "Product Description",
-        price: 1230.0,
-        info:
-            "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et",
-        color: ["lightsalmon", "lightseagreen"],
-        size: ["S", "M", "L", "XL", "XXL"],
-    },
-    {
-        id: 8,
-        gender: "mens",
-        img: "product_template.png",
         rating: 3,
-        name: "Product Name",
+        name: "Product Name 08",
         discription: "Product Description",
         price: 1230.0,
         info:
