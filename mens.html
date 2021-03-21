@@ -4,19 +4,19 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Dennis Alekseev" />
-        <meta name="description" content="Discover Rainydays womens jackets for harsh weather" />
+        <meta name="description" content="Discover Rainydays mens jackets" />
 
-        <title>Womens Outdoor | Rainydays</title>
-        <link rel="icon" href="../images/icons/rainydays_icon.svg" />
+        <title>Mens | Rainydays</title>
+        <link rel="icon" href="./images/icons/rainydays_icon.svg" />
 
-        <link rel="stylesheet" href="../css/global.css" />
-        <link rel="stylesheet" href="../css/typography.css" />
-        <link rel="stylesheet" href="../css/styles_header.css" />
-        <link rel="stylesheet" href="../css/womens.css" />
-        <link rel="stylesheet" href="../css/footer.css" />
+        <link rel="stylesheet" href="./css/global.css" />
+        <link rel="stylesheet" href="./css/typography.css" />
+        <link rel="stylesheet" href="./css/styles_header.css" />
+        <link rel="stylesheet" href="./css/mens.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
 
-        <script defer src="../js/list_mens.js"></script>
-        <script defer src="../js/grid_list-items.js"></script>
+        <script defer src="./js/list_mens.js"></script>
+        <script defer src="./js/grid_list-news.js"></script>
 
         <!-- Hotjar Tracking Code for rainydays-dennis-alekseev.netlify.app -->
         <script>
@@ -40,8 +40,8 @@
         <header>
             <nav>
                 <div class="h_flex">
-                    <a class="h_logo" href="../index.html"
-                        ><img class="h_logosize" src="../images/logo/rainydays_logo.svg" alt="Rainydays Logo" title="Rainydays"
+                    <a class="h_logo" href="./index.html"
+                        ><img class="h_logosize" src="./images/logo/rainydays_logo.svg" alt="Rainydays Logo" title="Rainydays"
                     /></a>
                 </div>
                 <input type="checkbox" id="h_btn" class="h_btn" />
@@ -49,22 +49,22 @@
                 <div class="h_menu01 font-h5">
                     <div class="h_menugroup01">
                         <label for="h_btn-01" class="h_label">MENS +</label>
-                        <a class="h_labellink" href="../mens/mens.html">MENS</a>
+                        <a class="h_labellink" href="./mens/mens.html">MENS</a>
                         <input type="checkbox" id="h_btn-01" />
                         <ul class="h_submenu font-h6">
-                            <li><a href="../mens/mens_outdoor.html">Outdoor</a></li>
-                            <li><a href="../mens/mens_skiing.html">Skiing</a></li>
-                            <li><a href="../mens/mens_canoeing.html">Canoeing</a></li>
+                            <li><a href="./mens_outdoor.html">Outdoor</a></li>
+                            <li><a href="./mens_skiing.html">Skiing</a></li>
+                            <li><a href="./mens_canoeing.html">Canoeing</a></li>
                         </ul>
                     </div>
                     <div class="h_menugroup01">
                         <label for="h_btn-02" class="h_label">WOMENS +</label>
-                        <a class="h_labellink" href="../womens/womens.html">WOMENS</a>
+                        <a class="h_labellink" href="./womens.html">WOMENS</a>
                         <input type="checkbox" id="h_btn-02" />
                         <ul class="h_submenu font-h6">
-                            <li><a href="../womens/womens_outdoor.html">Outdoor</a></li>
-                            <li><a href="../womens/womens_skiing.html">Skiing</a></li>
-                            <li><a href="../womens/womens_canoeing.html">Canoeing</a></li>
+                            <li><a href="./womens_outdoor.html">Outdoor</a></li>
+                            <li><a href="./womens_skiing.html">Skiing</a></li>
+                            <li><a href="./womens_canoeing.html">Canoeing</a></li>
                         </ul>
                     </div>
                     <div class="h_menugroup02">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="h_menu02">
-                    <a class="h_cart" href="#"><img class="h_iconsize" src="../images/icons/cart.svg" alt="Shopping cart" title="Shopping cart" /></a>
+                    <a class="h_cart" href="#"><img class="h_iconsize" src="./images/icons/cart.svg" alt="Shopping cart" title="Shopping cart" /></a>
                 </div>
             </nav>
         </header>
@@ -80,21 +80,34 @@
         <!-- MAIN -->
         <main>
             <!-- Banner -->
-            <div class="banner-categories banner-outdoor">
+            <div class="banner-categories">
                 <div class="wrapper-container banner">
                     <ul class="breadcrumbs">
-                        <li><a href="../index.html">Rainydays</a></li>
-                        <li><a href="./mens.html">Mens</a></li>
+                        <li><a href="./index.html">Rainydays</a></li>
                         <li></li>
                     </ul>
-                    <h1>Outdoor</h1>
+                    <h1>Mens</h1>
                 </div>
             </div>
 
-            <div class="wrapper-container">
-                <div id="grid-mens-items"></div>
+            <!-- Categories -->
+            <div class="wrapper-container categories">
+                <div class="outdoor banner">        
+                    <a href="./mens_outdoor.html" alt="Putdoor link"><h4>OUTDOOR</h4></a> 
+                </div>
+                <div class="skiing banner">                  
+                    <a href="./mens_skiing.html" alt="Skiing link"><h4>SKIING</h4></a>
+                </div>
+                <div class="canoeing banner">
+                    <a href="./mens_canoeing.html"  alt="Canoeing link"><h4>CANOEING</h4></a>
+                </div>
             </div>
 
+            <!-- News Mens -->
+            <div class="wrapper-container news">
+                <h2>News Mens</h2>
+                <div id="grid-mens-news"></div>
+            </div>
         </main>
 
         <!-- FOOTER -->
@@ -102,13 +115,13 @@
             <div class="wrapper">
                 <!-- LINKS -->
                 <div class="links">
-                    <a href="../about.html">About Us</a>
-                    <a href="../contact.html">Contact Us</a>
+                    <a href="./about.html">About Us</a>
+                    <a href="./contact.html">Contact Us</a>
                 </div>
   
                 <!-- POLICY -->
                 <div class="policy">
-                    <p>© Copyright<span>2021</span><a href="../index.html">Rainydays</a><p>All Rights Reserved</p></p>   
+                    <p>© Copyright<span>2021</span><a href="./index.html">Rainydays</a><p>All Rights Reserved</p></p>   
                 </div>
             </div>
         </footer>

@@ -3,8 +3,8 @@ function gridItems(list) {
         const item = list[i];
         if (item.gender === "mens") {
             const gridMensItems = document.getElementById("grid-mens-items");
-            gridMensItems.innerHTML += `  <a href="../product_details.html">
-                                            <img src="../images/mens/${item.img}" alt="${item.name}">
+            gridMensItems.innerHTML += `  <a href="./product_details.html">
+                                            <img src="./images/mens/${item.img}" alt="${item.name}">
                                             <div>
                                                 <span>${item.rating}</span>
                                                 <h4>${item.name}</h4>
@@ -14,8 +14,8 @@ function gridItems(list) {
                                         </a>`;
         } else {
             const gridWomensItems = document.getElementById("grid-womens-items");
-            gridWomensItems.innerHTML += `   <a href="../product_details.html">
-                                                <img src="../images/womens/${item.img}" alt="${item.name}">
+            gridWomensItems.innerHTML += `   <a href="./product_details.html">
+                                                <img src="./images/womens/${item.img}" alt="${item.name}">
                                                 <div>
                                                     <span>${item.rating}</span>
                                                     <h4>${item.name}</h4>

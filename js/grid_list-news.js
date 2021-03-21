@@ -6,8 +6,8 @@ function gridNews(list) {
         const item = list[i];
         if (item.gender === "mens") {
             const gridMensNews = document.getElementById("grid-mens-news");
-            gridMensNews.innerHTML += `  <a href="../product_details.html">
-                                            <img src="../images/mens/${item.img}" alt="${item.name}">
+            gridMensNews.innerHTML += `  <a href="./product_details.html">
+                                            <img src="./images/mens/${item.img}" alt="${item.name}">
                                             <div>
                                                 <span>${item.rating}</span>
                                                 <h4>${item.name}</h4>
@@ -17,8 +17,8 @@ function gridNews(list) {
                                         </a>`;
         } else {
             const gridWomensNews = document.getElementById("grid-womens-news");
-            gridWomensNews.innerHTML += `   <a href="../product_details.html">
-                                                <img src="../images/womens/${item.img}" alt="${item.name}">
+            gridWomensNews.innerHTML += `   <a href="./product_details.html">
+                                                <img src="./images/womens/${item.img}" alt="${item.name}">
                                                 <div>
                                                     <span>${item.rating}</span>
                                                     <h4>${item.name}</h4>
