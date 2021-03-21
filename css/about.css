@@ -1,0 +1,36 @@
+.about {
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.about div {
+    padding: 2rem;
+    background-color: var(--color05);
+}
+
+.about h2 {
+    text-align: center;
+    padding: 0 0 1rem;
+}
+
+.banner-about {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/about-us_banner.jpg");
+}
+
+.banner-about * {
+    color: var(--color06);
+}
+
+@media only screen and (min-width: 768px) {
+    .about {
+        max-width: 700px;
+
+        padding: 2rem 2rem 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+}

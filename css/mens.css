@@ -1,0 +1,39 @@
+.banner-categories {
+    background-image: url("../images/mens/mens_banner.jpg");
+}
+
+.banner-outdoor {
+    background-image: url("../images/mens/mens_banner_outdoor.jpg");
+}
+
+.banner-canoeing {
+    background-image: url("../images/mens/mens_banner_canoeing.jpg");
+}
+
+.banner-skiing {
+    background-image: url("../images/mens/mens_banner_skiing.jpg");
+}
+
+.outdoor {
+    background-size: cover;
+    background-position: center top;
+    background-image: url("../images/mens/mens_link_01.jpg");
+}
+
+.skiing {
+    background-size: cover;
+    background-position: center top;
+    background-image: url("../images/mens/mens_link_02.jpg");
+}
+
+.canoeing {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/mens/mens_link_03.jpg");
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}

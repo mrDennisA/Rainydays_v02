@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Dennis Alekseev" />
+        <meta name="description" content="Jacket you selected" />
+
+        <title>Product name | Rainydays</title>
+        <link rel="icon" href="../images/icons/rainydays_icon.svg" />
+
+        <link rel="stylesheet" href="../css/global.css" />
+        <link rel="stylesheet" href="../css/typography.css" />
+        <link rel="stylesheet" href="../css/styles_header.css" />
+        <link rel="stylesheet" href="../css/product_details.css" />
+        <link rel="stylesheet" href="../css/footer.css" />
+
+        <!-- Hotjar Tracking Code for rainydays-dennis-alekseev.netlify.app -->
+        <script>
+            (function (h, o, t, j, a, r) {
+                h.hj =
+                    h.hj ||
+                    function () {
+                        (h.hj.q = h.hj.q || []).push(arguments);
+                    };
+                h._hjSettings = { hjid: 2270603, hjsv: 6 };
+                a = o.getElementsByTagName("head")[0];
+                r = o.createElement("script");
+                r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+        </script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <nav>
+                <div class="h_flex">
+                    <a class="h_logo" href="../index.html"
+                        ><img class="h_logosize" src="../images/logo/rainydays_logo.svg" alt="Rainydays Logo" title="Rainydays"
+                    /></a>
+                </div>
+                <input type="checkbox" id="h_btn" class="h_btn" />
+                <label for="h_btn" class="h_toggle" alt="Dropdown menu" title="Dropdown menu"></label>
+                <div class="h_menu01 font-h5">
+                    <div class="h_menugroup01">
+                        <label for="h_btn-01" class="h_label">MENS +</label>
+                        <a class="h_labellink" href="../mens/mens.html">MENS</a>
+                        <input type="checkbox" id="h_btn-01" />
+                        <ul class="h_submenu font-h6">
+                            <li><a href="../mens/mens_outdoor.html">Outdoor</a></li>
+                            <li><a href="../mens/mens_skiing.html">Skiing</a></li>
+                            <li><a href="../mens/mens_canoeing.html">Canoeing</a></li>
+                        </ul>
+                    </div>
+                    <div class="h_menugroup01">
+                        <label for="h_btn-02" class="h_label">WOMENS +</label>
+                        <a class="h_labellink" href="../womens/womens.html">WOMENS</a>
+                        <input type="checkbox" id="h_btn-02" />
+                        <ul class="h_submenu font-h6">
+                            <li><a href="../womens/womens_outdoor.html">Outdoor</a></li>
+                            <li><a href="../womens/womens_skiing.html">Skiing</a></li>
+                            <li><a href="../womens/womens_canoeing.html">Canoeing</a></li>
+                        </ul>
+                    </div>
+                    <div class="h_menugroup02">
+                        <input class="h_search font-h6" type="text" placeholder="Search.." />
+                    </div>
+                </div>
+                <div class="h_menu02">
+                    <a class="h_cart" href="#"><img class="h_iconsize" src="../images/icons/cart.svg" alt="Shopping cart" title="Shopping cart" /></a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main>
+
+            <!-- Banner -->
+            <div>
+                <div class="wrapper-container">
+                    <ul class="breadcrumbs">
+                        <li><a href="../index.html">Rainydays</a></li>
+                        <li><a href="./mens.html">Mens</a></li>
+                        <li><a href="./mens_outdoor.html">Outdoor</a></li>
+                        <li>Product Name</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="wrapper-container">
+                <div class="product">
+                    <img class="product-img" src="../images/mens/mens_product_01.png" alt="Product image" />
+                    <div>
+                        <div class="stars">
+                            <img src="../images/icons/star_03.svg" alt="Star full" />
+                            <img src="../images/icons/star_03.svg" alt="Star full" />
+                            <img src="../images/icons/star_03.svg" alt="Star full" />
+                            <img src="../images/icons/star_02.svg" alt="Star half" />
+                            <img src="../images/icons/star_01.svg" alt="Star empty" />
+                            <span>(123)</span>
+                        </div>
+                        <div class="product-name">
+                            <h3>Product Name</h3>
+                            <p>Product Description</p>
+                            <h2>Price 123</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                aliquyam erat, sed diam voluptua. At vero eos et
+                            </p>
+                        </div>
+                        <div  class="product-color">
+                            <h4>Color:</h4>
+                            <div>
+                                
+                                <input type="radio" id="color01" name="color" value="color01">
+                                <label for="color01" class="color01"></label>
+                                
+                                <input type="radio" id="color02" name="color" value="color02">
+                                <label for="color02" class="color02"></label>
+                            </div>
+                        </div>
+                        <div class="product-size">
+                            <h4>Select size:</h4>
+                            <div class="h4">        
+                                <input type="radio" id="sizeS" name="size" value="sizeS">
+                                <label for="sizeS">S</label>        
+                                <input type="radio" id="sizeM" name="size" value="sizeM">
+                                <label for="sizeM">M</label>         
+                                <input type="radio" id="sizeL" name="size" value="sizeL">
+                                <label for="sizeL">L</label>                               
+                                <input type="radio" id="sizeXl" name="size" value="sizeXl">
+                                <label for="sizeXl">XL</label>
+                                <input type="radio" id="sizeXxl" name="size" value="sizeXxl">
+                                <label for="sizeXxl">XLL</label>
+                            </div>
+                        </div>
+                        <div class="cta h4">
+                            <a href="../cart_shipping.html">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-info">
+                    <h3>About Product</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                    </p>
+                </div>
+                <div class="banner"></div>
+            </div>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="b02">
+            <div class="wrapper">
+                <!-- LINKS -->
+                <div class="links">
+                    <a href="../about.html">About Us</a>
+                    <a href="../contact.html">Contact Us</a>
+                </div>
+  
+                <!-- POLICY -->
+                <div class="policy">
+                    <p>© Copyright<span>2021</span><a href="../index.html">Rainydays</a><p>All Rights Reserved</p></p>   
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
