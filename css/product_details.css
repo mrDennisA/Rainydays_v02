@@ -40,6 +40,7 @@
 
 .product-color label {
     cursor: pointer;
+    border-radius: 0.25rem;
 }
 
 .color01 {
@@ -59,6 +60,7 @@
     color: var(--color01);
     background-color: var(--color05);
     box-shadow: 0 0 0 1px var(--color01) inset;
+    border-radius: 0.25rem;
 }
 
 .product-size input:checked + label {
